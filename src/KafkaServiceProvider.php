@@ -3,7 +3,6 @@
 namespace Kafka;
 
 use Illuminate\Support\ServiceProvider;
-use App\Connector\KafkaConnector;
 
 class KafkaServiceProvider extends ServiceProvider
 {
