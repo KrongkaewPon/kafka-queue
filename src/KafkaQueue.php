@@ -44,7 +44,7 @@ class KafkaQueue extends Queue implements QueueContract
 
             switch ($message->err) {
                 case RD_KAFKA_RESP_ERR_NO_ERROR:
-                    // var_dump($message->payload);
+                    var_dump("RD_KAFKA_RESP_ERR_NO_ERROR\n");
                     $job = unserialize($message->payload);
                     $job->handle();
                     break;
