@@ -1,0 +1,12 @@
+{
+  "name": "bowwy/kafka-queue",
+  "require": {
+    "laravel/framework": "^8.50"
+  },
+  "authors": [
+    {
+      "name": "Krongkaew Ponboobpha",
+      "email": "krongkaew@enres.co"
+    }
+  ]
+}
